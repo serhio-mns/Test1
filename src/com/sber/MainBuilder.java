@@ -48,7 +48,7 @@ public class MainBuilder {
                         .withDate(dat)
                         .build();
             } else if (type.equalsIgnoreCase("MOTO")) {
-                Moto newCar = new Moto.Builder()
+                Moto newMoto = new Moto.Builder()
                         .withVin(vin)
                         .withSpeed(speed)
                         .withHeight(height)
